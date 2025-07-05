@@ -34,5 +34,11 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'api' => [
+        'protocol' => env('API_PROTOCOL', 'http'),
+        'host'     => env('API_HOST'),
+        'port'     => env('API_PORT'),
+        'token'    => env('API_TOKEN'),
+    ],
 
 ];
